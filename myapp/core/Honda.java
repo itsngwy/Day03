@@ -11,6 +11,6 @@ public class Honda extends Car {
     }
 
     public void stop(Integer count) {
-        System.out.printf("Stopping in %d seconds\n");
+        System.out.printf("Stopping in %d seconds\n", count);
     }
 }
